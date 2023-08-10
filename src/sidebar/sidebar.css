@@ -1,0 +1,23 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    flex: 0.35;
+}
+
+.sidebar_hader {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-right: 1px solid goldenrod;
+}
+
+.sidebar_hader_left,
+.sidebar_hader_right {
+    display: flex;
+    align-items: center;
+}
+
+.sidebar_hader_right {
+    align-items: flex-start;
+    min-width: 100px;
+}

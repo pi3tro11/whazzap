@@ -1,0 +1,10 @@
+.chat{
+    display: flex;
+    flex-direction: column;
+    flex: 0.60;
+    background-color: blanchedalmond    ;
+}
+.chat h1 {
+    color: black;
+    font-size: larger;
+}
